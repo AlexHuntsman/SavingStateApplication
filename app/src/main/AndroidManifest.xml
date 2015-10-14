@@ -3,7 +3,7 @@
     package="activity.ctec.savingstateapplication.controller" >
 
     <application
-        android:name="activity.ctec.savingstateapplication.controller.model.AndroidSaveState"
+        android:name=".model.AndroidSaveState"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,6 +16,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.BackPageActivity"
+            android:label="@string/title_activity_back_page" >
         </activity>
     </application>
 
