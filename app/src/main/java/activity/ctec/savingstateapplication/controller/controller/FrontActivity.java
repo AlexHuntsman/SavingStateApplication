@@ -5,7 +5,9 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.CheckBox;
+//
 import android.view.View;
+//for screen changing
 import android.content.Intent;
 import activity.ctec.savingstateapplication.controller.R;
 import activity.ctec.savingstateapplication.controller.model.AndroidSaveState;
